@@ -1,0 +1,21 @@
+[package]
+name = "dev_kkblparker_steamworkshop"
+description = "Adds an in-panel Steam Workshop mod list manager for Steam-based game servers (Arma 3, Project Zomboid), backed by the Steam Web API."
+authors = ["kkblparker"]
+version = "1.2.0"
+edition = { workspace = true }
+
+[dependencies]
+shared = { workspace = true }
+wings-api = { workspace = true }
+async-trait = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+indexmap = { workspace = true }
+uuid = { workspace = true }
+axum = { workspace = true }
+utoipa = { workspace = true }
+utoipa-axum = { workspace = true }
