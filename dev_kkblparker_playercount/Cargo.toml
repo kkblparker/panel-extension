@@ -1,0 +1,23 @@
+[package]
+name = "dev_kkblparker_playercount"
+description = "Shows live player counts for Minecraft (Server List Ping) and Source-engine (A2S query) servers."
+authors = ["kkblparker"]
+version = "1.0.0"
+edition = { workspace = true }
+
+[dependencies]
+shared = { workspace = true }
+async-trait = { workspace = true }
+tracing = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+uuid = { workspace = true }
+axum = { workspace = true }
+utoipa = { workspace = true }
+utoipa-axum = { workspace = true }
+futures-util = { workspace = true }
+craftping = { version = "0.7", features = ["async-tokio"] }
+a2s = { version = "0.6", features = ["tokio"] }

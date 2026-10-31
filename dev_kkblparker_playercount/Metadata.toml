@@ -1,0 +1,3 @@
+package_name = "dev.kkblparker.playercount"
+name = "Player Count"
+panel_version = ">=1.1.0"

@@ -13,6 +13,12 @@ its frontend counterpart under `frontend/`.
 - `dev_kkblparker_minecraftworkshop` — in-panel Workshop browser for Minecraft plugins/mods, via Modrinth.
 - `dev_kkblparker_steamworkshop` — Steam Workshop mod list manager for Steam-based servers (Arma 3,
   Project Zomboid), via the Steam Web API.
+- `dev_kkblparker_playercount` — shows live player counts for Minecraft (Server List Ping) and
+  Source-engine (A2S query) servers.
+- `dev_kkblparker_minecraftwhitelist` — lets users manage a Minecraft server's whitelist and ban
+  list from the panel, resolving usernames via Mojang.
+- `dev_kkblparker_vintagestoryworkshop` — in-panel Workshop browser for Vintage Story servers,
+  backed by mods.vintagestory.at's public API.
 
 ## Using these in a panel checkout
 
